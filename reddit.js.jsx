@@ -48,8 +48,8 @@ var Story = React.createClass({
 
 var StoryList = React.createClass({
   render: function() {
-    console.log("this.props.stories");
-    console.log(this.props.stories);
+    // console.log("this.props.stories");
+    // console.log(this.props.stories);
     var indexNumber = 0;
 
     var storyNodes = _.compact(_.map(this.props.stories, function(story) {
@@ -63,8 +63,8 @@ var StoryList = React.createClass({
       }
     }));
 
-    console.log("storyNodes");
-    console.log(storyNodes);
+    // console.log("storyNodes");
+    // console.log(storyNodes);
 
     return (
       <div className="container">
