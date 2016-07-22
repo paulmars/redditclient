@@ -7,7 +7,7 @@ var Story = React.createClass({
   render: function() {
     return (
       <div className="grid-item">
-        <img src={this.props.story.preview.images[0].source.url} width="500" />
+        <img src={this.props.story.preview.images[0].source.url} />
       </div>
     );
   },
